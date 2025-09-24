@@ -1,26 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
 
-    body {
-        background-color: lightblue;
-    }                       
-    h1 {
-        color: white;
-        text-align: center;
-    }   
-    p {
-        font-family: verdana;
-        font-size: 20px;
-    }                       
-    h2 {
-        color: navy;
-        font-family: verdana;
-    }
-    h3 {
-        color: darkblue;
-        font-family: verdana;
-    }
-    li {
-        color: black;
-        font-family: verdana;
-        font-size: 18px;
-    }
-    
+h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+h2 {
+    color: #666;
+    font-size: 20px;
+}
+
+h3 {
+    color: #999;
+    font-size: 18px;
+}
+
+p {
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: square;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
