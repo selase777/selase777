@@ -7,12 +7,18 @@ body {
     color: #00674d;
 }
 
-header, nav, footer {
-    background: #222;
-    color: #0d1860;
+header, footer {
+    background: #0f8989;
+    color: #8f9d2ff1;
     padding: 1em;
     text-align: center;
 }
+ .navbar {
+            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            padding: 0 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
 
 nav a {
     color: #fff;
